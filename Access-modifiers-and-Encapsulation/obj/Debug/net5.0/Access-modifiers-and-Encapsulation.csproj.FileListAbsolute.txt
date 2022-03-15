@@ -1,0 +1,16 @@
+C:\Users\Ramal\Desktop\C# Projects\Access-modifiers-and-Encapsulation\Access-modifiers-and-Encapsulation\bin\Debug\net5.0\Access-modifiers-and-Encapsulation.exe
+C:\Users\Ramal\Desktop\C# Projects\Access-modifiers-and-Encapsulation\Access-modifiers-and-Encapsulation\bin\Debug\net5.0\Access-modifiers-and-Encapsulation.deps.json
+C:\Users\Ramal\Desktop\C# Projects\Access-modifiers-and-Encapsulation\Access-modifiers-and-Encapsulation\bin\Debug\net5.0\Access-modifiers-and-Encapsulation.runtimeconfig.json
+C:\Users\Ramal\Desktop\C# Projects\Access-modifiers-and-Encapsulation\Access-modifiers-and-Encapsulation\bin\Debug\net5.0\Access-modifiers-and-Encapsulation.runtimeconfig.dev.json
+C:\Users\Ramal\Desktop\C# Projects\Access-modifiers-and-Encapsulation\Access-modifiers-and-Encapsulation\bin\Debug\net5.0\Access-modifiers-and-Encapsulation.dll
+C:\Users\Ramal\Desktop\C# Projects\Access-modifiers-and-Encapsulation\Access-modifiers-and-Encapsulation\bin\Debug\net5.0\Access-modifiers-and-Encapsulation.pdb
+C:\Users\Ramal\Desktop\C# Projects\Access-modifiers-and-Encapsulation\Access-modifiers-and-Encapsulation\obj\Debug\net5.0\Access-modifiers-and-Encapsulation.csproj.AssemblyReference.cache
+C:\Users\Ramal\Desktop\C# Projects\Access-modifiers-and-Encapsulation\Access-modifiers-and-Encapsulation\obj\Debug\net5.0\Access-modifiers-and-Encapsulation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ramal\Desktop\C# Projects\Access-modifiers-and-Encapsulation\Access-modifiers-and-Encapsulation\obj\Debug\net5.0\Access-modifiers-and-Encapsulation.AssemblyInfoInputs.cache
+C:\Users\Ramal\Desktop\C# Projects\Access-modifiers-and-Encapsulation\Access-modifiers-and-Encapsulation\obj\Debug\net5.0\Access-modifiers-and-Encapsulation.AssemblyInfo.cs
+C:\Users\Ramal\Desktop\C# Projects\Access-modifiers-and-Encapsulation\Access-modifiers-and-Encapsulation\obj\Debug\net5.0\Access-modifiers-and-Encapsulation.csproj.CoreCompileInputs.cache
+C:\Users\Ramal\Desktop\C# Projects\Access-modifiers-and-Encapsulation\Access-modifiers-and-Encapsulation\obj\Debug\net5.0\Access-modifiers-and-Encapsulation.dll
+C:\Users\Ramal\Desktop\C# Projects\Access-modifiers-and-Encapsulation\Access-modifiers-and-Encapsulation\obj\Debug\net5.0\refint\Access-modifiers-and-Encapsulation.dll
+C:\Users\Ramal\Desktop\C# Projects\Access-modifiers-and-Encapsulation\Access-modifiers-and-Encapsulation\obj\Debug\net5.0\Access-modifiers-and-Encapsulation.pdb
+C:\Users\Ramal\Desktop\C# Projects\Access-modifiers-and-Encapsulation\Access-modifiers-and-Encapsulation\obj\Debug\net5.0\Access-modifiers-and-Encapsulation.genruntimeconfig.cache
+C:\Users\Ramal\Desktop\C# Projects\Access-modifiers-and-Encapsulation\Access-modifiers-and-Encapsulation\obj\Debug\net5.0\ref\Access-modifiers-and-Encapsulation.dll
