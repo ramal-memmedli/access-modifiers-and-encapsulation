@@ -7,88 +7,13 @@ namespace Access_modifiers_and_Encapsulation
     {
         static void Main(string[] args)
         {
-            #region Name
-            Console.Write("Enter name : ");
-            string name = Console.ReadLine();
-            #endregion
+            string name = GetStringInput("Enter name : ");
+            string surname = GetStringInput("Enter Surname : ");
+            int age = GetNumberInput("Enter age : ","Error!!!, Please re-enter age : ",0,150);
+            int experience = GetNumberInput("Enter experience year : ", "Error!!!\nPlease enter experience year again : ",0,age);
+            int languageCount = GetNumberInput("How many languages person know ? : ", "Error!!! Please re-enter count of languages (ex. 5) : ",0,30);
 
-            #region Surname
-            Console.Write("Enter Surname : ");
-            string surname = Console.ReadLine();
-            #endregion
 
-            #region Age
-            Console.Write("Enter age : ");
-            ReEnterAge:
-            int age = 0;
-            try
-            {
-                age = Convert.ToInt32(Console.ReadLine());
-                if (age > 0 && age < 150)
-                {}
-                else
-                {
-                    Console.Clear();
-                    Console.Write("Error!!!\nPlease enter age again : ");
-                    goto ReEnterAge;
-                }
-            }
-            catch (Exception)
-            {
-                Console.Clear();
-                Console.Write("Error!!!\nPlease enter age again : ");
-                goto ReEnterAge;
-            }
-            #endregion
-
-            #region Experience
-            Console.Write("Enter experience year : ");
-            ReEnterExperience:
-            int experience = 0;
-            try
-            {
-                experience = Convert.ToInt32(Console.ReadLine());
-                if(experience > 0 && experience < (age - experience))
-                {}
-                else
-                {
-                    Console.Clear();
-                    Console.Write("Error!!!\nPlease enter experience year again : ");
-                    goto ReEnterExperience;
-                }
-            }
-            catch (Exception)
-            {
-                Console.Clear();
-                Console.Write("Error!!!\nPlease enter experience year again : ");
-                goto ReEnterExperience;
-            }
-            #endregion
-
-            #region Languages
-
-            Console.Write("How many languages person know ? : ");
-            ReEnterLanguageCount:
-            int languageCount = 0;
-
-            try
-            {
-                languageCount = (Convert.ToInt32(Console.ReadLine()));
-                if (languageCount > 0 && languageCount < 30)
-                {}
-                else
-                {
-                    Console.Clear();
-                    Console.Write("Error!!! Please re-enter count of languages (ex. 5) : ");
-                    goto ReEnterLanguageCount;
-                }
-            }
-            catch (Exception)
-            {
-                Console.Clear();
-                Console.Write("Error!!! Please re-enter count of languages (ex. 5) : ");
-                goto ReEnterLanguageCount;
-            }
 
             string languageInput;
             string[] languages = new string[languageCount];
@@ -101,7 +26,6 @@ namespace Access_modifiers_and_Encapsulation
                 languages[i] = languageInput;
                 counter++;
             }
-            #endregion
 
             FrontEnd frontEnd = new FrontEnd(name, surname, age, experience, languages);
             BackEnd backEnd = new BackEnd(name, surname, age, experience, languages);
@@ -111,6 +35,34 @@ namespace Access_modifiers_and_Encapsulation
 
             Console.WriteLine(backEnd.GetFullName());
             Console.WriteLine(backEnd.AddYearsExperience(5));
+        }
+        static string GetStringInput(string msg)
+        {
+            Console.Write(msg);
+            return Console.ReadLine();
+        }
+        static int GetNumberInput(string msg, string msg2,int minimum, int maximum)
+        {
+            Console.Write(msg);
+            ReEnterNumber:
+            int number = 0;
+            try
+            {
+                number = Convert.ToInt32(Console.ReadLine());
+                if(number > minimum && number < maximum) { } else
+                {
+                    Console.Clear();
+                    Console.Write(msg2);
+                    goto ReEnterNumber;
+                }
+            }
+            catch (Exception)
+            {
+                Console.Clear();
+                Console.Write(msg2);
+                goto ReEnterNumber;
+            }
+            return number;
         }
     }
 }
